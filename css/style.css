@@ -1,0 +1,187 @@
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section {
+  padding: 30px 0;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+figcaption {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.section-title {
+  margin-bottom: 30px;
+}
+
+.block {
+  width: 380px;
+  min-height: 460px;
+  border: 3px solid darkblue;
+  background-color: rgb(192, 231, 202);
+}
+
+.box-relative {
+  border: 1px solid black;
+  background-color: rgb(192, 231, 202);
+  margin-bottom: 30px;
+}
+
+.box-relative2 {
+  background-color: rgb(153, 158, 216);
+}
+
+.box {
+  border: 1px solid black;
+  background-color: rgb(192, 231, 202);
+}
+
+.box-a {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
+
+.box1 {
+  width: 90%;
+  height: 300px;
+}
+
+.box2 {
+  width: 80%;
+  height: 250px;
+}
+
+.box3 {
+  width: 70%;
+  height: 200px;
+}
+
+.box4 {
+  width: 60%;
+  height: 150px;
+}
+
+.box5 {
+  width: 50%;
+  height: 100px;
+}
+
+.float-text {
+  font-size: 18px;
+}
+
+.fixed-x {
+  width: 300px;
+  min-height: 600px;
+  border: 3px solid darkblue;
+  background-color: rgb(228, 240, 120);
+}
+
+.fixed-y {
+  width: 100%;
+  min-height: 50px;
+  border: 3px solid darkblue;
+  background-color: rgb(209, 78, 159);
+}
+
+/* урок */
+
+.wrapper {
+  display: flow-root;
+}
+
+.block {
+  padding: 30px;
+  margin-bottom: 75px;
+  float: right;
+}
+
+.block:not(:nth-child(2n)) {
+  float: left;
+}
+
+.block-title {
+  margin-bottom: 25px;
+}
+
+.float-img {
+  float: right;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.float-clear {
+  clear: right;
+}
+
+.box-relative {
+  position: relative;
+}
+
+.box-a {
+  width: 100px;
+  height: 100px;
+}
+
+.box-absolute {
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  background-color: red;
+  z-index: 5;
+}
+
+.box-absolute2 {
+  position: absolute;
+  top: 130px;
+  left: 380px;
+  background-color: green;
+  z-index: 10;
+}
+
+.box-absolute3 {
+  position: absolute;
+  top: 160px;
+  left: 320px;
+  background-color: blue;
+  z-index: 7;
+}
+
+.box2 {
+  position: relative;
+}
+
+.box4 {
+  position: relative;
+}
+
+.fixed-x {
+  position: sticky;
+  top: 150px;
+  left: 0;
+  height: 50px;
+}
+
+.fixed-y {
+  position: sticky;
+  top: 0;
+  left: 0;
+}

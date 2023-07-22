@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif'), local('Droid-Serif-Regular'),
+        url('../fonts/droid-serif.woff2') format('woff2'),
+        url('../fonts/droid-serif.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: local('Droid Serif Bold'), local('Droid-Serif-Bold'),
+        url('../fonts/droid-serif-bold.woff2') format('woff2'),
+        url('../fonts/droid-serif-bold.woff') format('woff');
+        font-weight: 700;
+        font-display: swap;
+}
